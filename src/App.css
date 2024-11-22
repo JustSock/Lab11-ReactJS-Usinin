@@ -1,0 +1,58 @@
+.App {
+  text-align: center;
+}
+
+body {
+	font-family: 'Open Sans', sans-serif;
+	color: #201b2d;
+	font-size: 15px;
+	padding: 0;
+	margin: 0;
+}
+
+div, p, input, button, form, span, a, ul, li {
+	box-sizing: border-box;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	margin: 0;
+	font-family: 'Ubuntu', sans-serif;
+	font-weight: 900;
+}
+
+p {
+	line-height: 1.65em;
+}
+.mainTitle{
+  text-align: center;
+  margin-top: 12px;
+  color: black;
+	font-size: 1.5em;
+	margin-bottom: 40px;
+}
+
+.main-blocks {
+	display: flex;
+	justify-content: space-evenly;
+	max-width: 1000px;
+	margin: 0 auto;
+	color: black;
+	padding-bottom: 80px;
+}
+
+.main-block {
+	display: flex;
+	max-width: 200px;
+	text-align: center;
+	flex-direction: column;
+}
+
+.main-img{
+  padding-bottom: 20px;
+}
+
+.main-block-text {
+	color: #9a9aad;
+	font-size: 0.8em;
+	width: 200px;
+}
